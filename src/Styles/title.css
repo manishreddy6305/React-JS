@@ -1,0 +1,27 @@
+.tittle{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 505;
+    color: rgb(54, 54, 54);
+    margin: 0px;
+}
+
+.hr{
+    width: 55px;
+    float: left;
+    height: 2px;
+    background-color: orangered;
+    border: none;
+    margin-top: 8px;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    .tittle{
+        margin-left: 15px;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .hr{
+        margin-left:15px ;
+        width: 70px;
+    }
+}
